@@ -1,4 +1,4 @@
-import Nav from './assets/Component/Nav'
+import Nav from './Component/Nav'
 import './App.css'
 
 
