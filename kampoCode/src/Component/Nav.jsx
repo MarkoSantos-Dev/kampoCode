@@ -45,7 +45,7 @@ const Nav = () => {
             <div className="container text-white text-center  mt-5">
                 <h5 className="hero-content">
                     Lorem ipsum dolor sit amet, consectetur. lorem ipsum dolor sit amet,
-                    consectetur.  lorem ipsum dolor sit am
+                    consectetur.  lorem ipsum dolor sit am Lorem
                 </h5>
                 <button className="btn text-white mt-3">Learn More</button>
                 </div>
