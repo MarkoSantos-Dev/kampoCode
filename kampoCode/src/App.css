@@ -13,11 +13,66 @@
 .btn{
   background-color: #34AD9E;
   font-size: 1.2rem;
-  
+
 }
 
 .hero-content{
   padding: 0px  10rem;
   font-size: 1.4rem;
-  
+}
+
+
+/*!JESRYL*/
+/*! EduSystem Styles */
+.heroContainer{
+  height: 100vh;
+  background-color: #EFEAEA;
+}
+.sectionContainer {
+  display: flex;
+  text-align: center;
+  margin-top: 150px;
+}
+.sectionOne {
+  width: 50%;
+  margin-top: 100px;
+}
+.sectionOne-p, .sectionOne-h {
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+.sectionTwo {
+  width: 50%;
+}
+
+/*! Course Styles */
+.course-header {
+  margin-top: 200px;
+}
+.enroll-btn {
+  width: 120px;
+  font-weight: 500;
+}
+/* .image1 {
+  height: 400px;
+  width: 600px;
+} */
+
+
+
+/*! Event Styles */
+.events {
+  margin-top: 200px;
+}
+
+
+
+/*! Footer Styles */
+.footer {
+  margin-top: 150px;
+}
+.kampoCode {
+  color: #34AD9E;
+  font-weight: bold;
 }

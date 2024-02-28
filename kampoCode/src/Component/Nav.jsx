@@ -52,6 +52,7 @@ const Nav = () => {
                 <img src="./images/hero.png" className="img-fluid mx-auto d-block" alt="Hero image" />
             </div>
         </header>
+
     );
 };
 
