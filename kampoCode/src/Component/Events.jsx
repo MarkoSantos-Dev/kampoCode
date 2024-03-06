@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const Events = () => {
   return (
-    <div className='events container-fluid w-75'>
+    <div className='events container-fluid w-100'>
       <div className='lower-section d-flex'>
         <div>
           <img src="https://placehold.co/900x500" alt="" />

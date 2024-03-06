@@ -1,17 +1,22 @@
-import React from 'react'
+
 
 const EduSystem = () => {
   return (
-    <div className='mainContainer container-fluid w-75'>
-      <div className='sectionContainer'>
-          <div className='sectionOne px-5'>
-            <h2 className='sectionOne-h fw-bold'>Our education system works for you</h2>
-            <p className='sectionOne-p mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex dolor, voluptatum possimus, facilis sit, consequuntur tempora quia ratione pariatur nisi nobis nostrum quidem adipisci eligendi iste repudiandae doloribus sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas a error incidunt. Ipsum perferendis impedit ducimus ullam libero maxime quos nemo, quae totam asperiores necessitatibus dolores officiis architecto quam accusantium?</p>
-            <button className="btn bg-secondary text-white mt-5">Learn More</button>
+    <div className='mainContainer container-fluid mt-5'>
+      <div className='sectionContainer d-flex text-start mx-5'>
+        <div className='sectionOne px-5'>
+            <h2 className='sectionOne-h fw-bold text-start fs-1'>
+              Our education system works for you
+            </h2>
+            <p className='sectionOne-p mt-4 text-start'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex dolor, 
+            </p>
+            <button className="btn bg-light text-dark mt-4 rounded-5 shadow ">LEARN MORE</button>
         </div>
-        <div className='sectionTwo'>
+        <div className='sectionTwo position-relative'>
           {/* <img src="../../public/images/section1.png" alt="" /> */}
-          <img src="https://placehold.co/800x600" alt="" />
+          <span className="boxColor container"></span>
+          <img src="./images/vector.png" alt="" className="img-fluid overlapping-image"/>
         </div>
       </div>
     </div>
