@@ -2,7 +2,7 @@ const Nav = () => {
     return (
         <header className="hero">
             <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+                <nav className="navbar navbar-expand-lg navbar-light ">
                     <div className="container-fluid d-flex justify-content-around mt-3" id="nav-space">
                         <a className="navbar-brand text-white" href="#">KampoCode</a>
                         <button
@@ -52,7 +52,6 @@ const Nav = () => {
                 <img src="./images/hero.png" className="img-fluid mx-auto d-block" alt="Hero image" />
             </div>
         </header>
-
     );
 };
 

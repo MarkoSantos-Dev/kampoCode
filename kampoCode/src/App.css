@@ -41,6 +41,11 @@ body{
 .sectionOne {
   width: 60%;
 }
+.sectionOne button:hover{
+  background-color: #2D5A68 !important;
+  color: white !important;
+}
+
 
 
 .boxColor{
@@ -92,15 +97,43 @@ body{
 /*! Footer Styles */
 .footer {
   margin-top: 150px;
+  background-color: #2D5A68;
 }
 .kampoCode {
-  color: #34AD9E;
+  color: #eff0f0;
   font-weight: bold;
 }
 
 
 /* Start of courses section */
+.main-container{
+  gap: 3rem;
+}
 .cardOne{
   height: 90%;
-
+  width: 50%!important;
+  border-radius: 10%;
+  overflow: hidden;
 }
+.cardOne img{
+  height: 10rem;
+}
+
+.cardOne button:hover {
+  background-color: #2D5A68;
+}
+
+
+/* start of section 3 */
+.img-container{
+  margin-left: 3%;
+}
+.event-content h3{
+  color:#2D5A68 ;
+}
+.x-ruler{
+  width: 60%;
+  color: #0f0d0c;
+  border: 2px solid ;
+}
+
