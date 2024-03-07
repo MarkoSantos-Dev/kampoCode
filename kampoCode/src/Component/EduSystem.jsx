@@ -2,7 +2,7 @@
 
 const EduSystem = () => {
   return (
-    <div className='mainContainer container-fluid mt-5'>
+    <div className='mainContainer container-fluid mt-5' data-aos="fade-up">
       <div className='sectionContainer d-flex text-start mx-5'>
         <div className='sectionOne px-5'>
             <h2 className='sectionOne-h fw-bold text-start fs-1'>
